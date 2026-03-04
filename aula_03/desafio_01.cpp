@@ -2,20 +2,25 @@
 using namespace std;
 
 int main(){
-	int num = 0;
+	int a[4];
 	int soma = 0;
 	int resultado = 0;
 	
-	for(int i = 1; i <= 5; ++i){
+	for(int i = 0; i <= 4; ++i){
 	cout << "informe um valor: ";
-		cin >> num;
-	}
-	if (num > 0){
-		soma += num;
+		cin >> a[i];
+	
 	}
 	
-	soma = resultado;
-	cout << "resultado: " << resultado;
+	for (int i = 0; i < 4; ++i) {
+        if (a[i] > 0){
+            soma += a[i];
+            
+		}
+			
+	}
+	
+	cout << "resultado: " << soma;
 	
 	return 0;
 }
