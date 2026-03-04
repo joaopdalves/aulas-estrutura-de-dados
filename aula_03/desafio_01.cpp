@@ -4,7 +4,6 @@ using namespace std;
 int main(){
 	int a[4];
 	int soma = 0;
-	int resultado = 0;
 	
 	for(int i = 0; i <= 4; ++i){
 	cout << "informe um valor: ";
@@ -24,3 +23,4 @@ int main(){
 	
 	return 0;
 }
+
