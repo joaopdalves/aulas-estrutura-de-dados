@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    int n
+    int n;
 	int soma = 0;
 
     cout << "digite um numero inteiro positivo: ";
@@ -20,3 +20,4 @@ int main() {
 
     return 0;
 }
+
